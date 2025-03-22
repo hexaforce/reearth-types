@@ -1,0 +1,22 @@
+{
+  "name": "@hexaforce/reearth-types",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexaforce/reearth-types.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@reearth/core": "0.0.7-alpha.11",
+    "@types/react": "^18.3.19",
+    "type-fest": "^4.37.0",
+    "typescript": "^5.0.0"
+  }
+}
