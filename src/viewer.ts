@@ -120,8 +120,8 @@ export declare type ViewerEventType = {
   mouseEnter: [e: MouseEvent];
   mouseLeave: [e: MouseEvent];
   wheel: [e: MouseEvent];
-  keydown: [e: KeyboardEvent];
-  keyup: [e: KeyboardEvent];
+  keyDown: [e: KeyboardEvent];
+  keyUp: [e: KeyboardEvent];
   resize: [e: ViewportSize];
 };
 
